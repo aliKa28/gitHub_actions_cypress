@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 
-context('Testing to do list', () => {
+context('Testing to do list1', () => {
     beforeEach(() =>{
         cy.visit(Cypress.env('host'))  
         cy.get('.btn-primary').contains('Create a to-do list').click()
