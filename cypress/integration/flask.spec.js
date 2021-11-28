@@ -15,7 +15,7 @@ context('Testing to do list1', () => {
     })
 
 
-    it('complete first task in list', () => {
+    it('complete first task in list1', () => {
 
         cy.addTask()
 
